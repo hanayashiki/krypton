@@ -1,0 +1,10 @@
+C8=1
+I32=2
+LEFT_BRACE=3
+RIGHT_BRACE=4
+STRUCT=5
+'c8'=1
+'i32'=2
+'{'=3
+'}'=4
+'struct'=5

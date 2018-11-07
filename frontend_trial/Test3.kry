@@ -1,0 +1,17 @@
+struct Array<i32 N, type T>
+{
+	T elem;
+};
+
+struct Pair<type T1, type T2>
+{ 
+	T1 t1 : 12345;
+	T2 t2;
+};
+
+Pair<i32, Pair<i32, c8>> pair;
+
+struct Void<>
+{ 
+	Void<i32> fuck;
+};

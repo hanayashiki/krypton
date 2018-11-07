@@ -1,0 +1,15 @@
+struct A
+{
+	i32 a;
+	c8 b;
+};
+
+struct Abstract 
+{
+	i32 a;
+	c8 b;
+};
+
+struct Fuck
+{
+};

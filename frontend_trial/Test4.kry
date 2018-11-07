@@ -1,0 +1,19 @@
+() -> i32 function1;
+(i32) -> i32 function2;
+(i32, i32) -> i32 function3;
+((i32) -> i32) -> i32 function4;
+(i32) -> ((i32) -> i32) function5;
+
+struct OOP
+{
+	i32 a;
+	(OOP) -> OOP next;
+} o;
+
+struct Fuck<type T>
+{
+	T t;
+};
+
+(Fuck<i32> shit) -> Fuck<c8> function6;
+

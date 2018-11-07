@@ -1,0 +1,13 @@
+i32 a : a * b + c * d()(1, 2, 'c') + c / d - 123;
+
+c8 b : (A.b.c()().efg + c).fuck(233);
+
+(i32 n) -> i32 factorial : 
+	if (n = 1) 
+		1 
+	elseif (n = 2) 
+		2
+	else 
+		n * factorial(n - 1);
+
+(T a, T b, T c) -> T threeSum <type T>: a + b + c;

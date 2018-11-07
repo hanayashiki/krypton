@@ -1,0 +1,25 @@
+struct A 
+{
+	i32 a;
+	c8 b;
+} a;
+
+i32 c;
+c8 d;
+
+struct B
+{
+	A a;
+	struct 
+	{
+		i32 c;
+	} anonymous;
+
+	struct SomeName
+	{
+		i32 c;
+	} named;
+
+};
+
+i32;
